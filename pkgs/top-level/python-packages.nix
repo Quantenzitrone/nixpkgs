@@ -7936,6 +7936,8 @@ self: super: with self; {
 
   mbstrdecoder = callPackage ../development/python-modules/mbstrdecoder { };
 
+  mbzero = callPackage ../development/python-modules/mbzero { };
+
   mccabe = callPackage ../development/python-modules/mccabe { };
 
   mcstatus = callPackage ../development/python-modules/mcstatus { };
