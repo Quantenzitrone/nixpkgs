@@ -265,6 +265,7 @@ print OUT <<EOF;
   font-util,
   gccmakedep,
   libpciaccess,
+  libpthread-stubs,
   luit,
 }:
 
@@ -278,6 +279,7 @@ self: with self; {
     ;
   fontalias = font-alias;
   fontutil = font-util;
+  libpthreadstubs = libpthread-stubs;
 
 EOF
 
