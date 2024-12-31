@@ -432,6 +432,11 @@ lib.mapAttrs mkLicense ({
     fullName = "Common Public License 1.0";
   };
 
+  cronyx = {
+    spdxId = "Cronyx";
+    fullName = "Cronyx License";
+  };
+
   curl = {
     spdxId = "curl";
     fullName = "curl License";
