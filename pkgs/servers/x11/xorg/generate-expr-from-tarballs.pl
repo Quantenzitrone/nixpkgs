@@ -264,6 +264,7 @@ print OUT <<EOF;
   font-alias,
   font-util,
   gccmakedep,
+  libpciaccess,
   luit,
 }:
 
@@ -272,6 +273,7 @@ self: with self; {
   inherit pixman;
   inherit
     gccmakedep
+    libpciaccess
     luit
     ;
   fontalias = font-alias;
