@@ -263,13 +263,17 @@ print OUT <<EOF;
   pixman,
   font-alias,
   font-util,
+  gccmakedep,
   luit,
 }:
 
 self: with self; {
 
   inherit pixman;
-  inherit luit;
+  inherit
+    gccmakedep
+    luit
+    ;
   fontalias = font-alias;
   fontutil = font-util;
 
