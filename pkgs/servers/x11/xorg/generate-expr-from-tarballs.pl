@@ -262,6 +262,7 @@ print OUT <<EOF;
   lib,
   pixman,
   font-alias,
+  font-util,
   luit,
 }:
 
@@ -270,6 +271,7 @@ self: with self; {
   inherit pixman;
   inherit luit;
   fontalias = font-alias;
+  fontutil = font-util;
 
 EOF
 
